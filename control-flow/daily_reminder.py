@@ -9,7 +9,7 @@ match priority:
         case 'medium':
             reminder = f"Reminder: '{task}' is a medium priority task"
         case 'low':
-            reminder = f"Reminder: '{task}' is a low priority task"
+            reminder = f"Note: '{task}' is a low priority task"
         case _:
             print("Invalid priority entered.")
             
