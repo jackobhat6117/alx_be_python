@@ -12,11 +12,11 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_subtraction(self):
         self.assertEqual(self.calc.subtract(5,3),2)
         self.assertEqual(self.calc.subtract(9,5),4)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(3,4),12)
         self.assertEqual(self.calc.multiply(10,0), 0)
         
-    def test_divide(self):
+    def test_division(self):
 
         self.assertEqual(self.calc.divide(21,7), 3)
         self.assertEqual(self.calc.divide(5,0), ZeroDivisionError)
